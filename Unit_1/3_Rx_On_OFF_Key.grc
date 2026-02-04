@@ -96,25 +96,6 @@ blocks:
     coordinate: [440, 200.0]
     rotation: 0
     state: true
-- name: blocks_file_sink_0
-  id: blocks_file_sink
-  parameters:
-    affinity: ''
-    alias: ''
-    append: 'False'
-    comment: ''
-    file: C:\Users\bcpmosaj\OneDrive - UPV EHU\0_2025.2026\KSE\1. Gaia\Proba\2024.2025
-      1_Short_Exercises.pdf
-    type: complex
-    unbuffered: 'False'
-    vlen: '1'
-  states:
-    bus_sink: false
-    bus_source: false
-    bus_structure: null
-    coordinate: [832, 364.0]
-    rotation: 0
-    state: enabled
 - name: osmosdr_source_0
   id: osmosdr_source
   parameters:
@@ -715,7 +696,6 @@ blocks:
 connections:
 - [blocks_complex_to_mag_0, '0', qtgui_time_sink_x_0, '0']
 - [blocks_correctiq_0, '0', blocks_complex_to_mag_0, '0']
-- [blocks_correctiq_0, '0', blocks_file_sink_0, '0']
 - [blocks_correctiq_0, '0', qtgui_freq_sink_x_0, '0']
 - [blocks_correctiq_0, '0', qtgui_waterfall_sink_x_0, '0']
 - [osmosdr_source_0, '0', blocks_correctiq_0, '0']
