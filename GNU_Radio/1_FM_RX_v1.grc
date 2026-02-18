@@ -445,7 +445,7 @@ blocks:
     freq7: 100e6
     freq8: 100e6
     freq9: 100e6
-    gain0: '10'
+    gain0: '14'
     gain1: '10'
     gain10: '10'
     gain11: '10'
@@ -509,7 +509,7 @@ blocks:
     gain_mode7: 'False'
     gain_mode8: 'False'
     gain_mode9: 'False'
-    if_gain0: '20'
+    if_gain0: '40'
     if_gain1: '20'
     if_gain10: '20'
     if_gain11: '20'
@@ -578,7 +578,7 @@ blocks:
     nchan: '1'
     num_mboards: '1'
     sample_rate: samp_rate
-    sync: sync
+    sync: none
     time_source0: ''
     time_source1: ''
     time_source2: ''

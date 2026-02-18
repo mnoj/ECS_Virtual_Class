@@ -108,7 +108,7 @@ blocks:
     orient: QtCore.Qt.Horizontal
     rangeType: int
     start: '0'
-    step: '14'
+    step: '1'
     stop: '14'
     value: '14'
     widget: dial
@@ -241,7 +241,7 @@ blocks:
     alias: ''
     begin_tag: pmt.PMT_NIL
     comment: ''
-    file: C:\Users\bcpmosaj\OneDrive - UPV EHU\0_2025.2026\KSE\Dev\Unit_1\oihu.wav
+    file: C:\Users\bcpmosaj\OneDrive - UPV EHU\0_2025.2026\KSE\Dev\GNU_Radio\oihu.wav
     length: '0'
     maxoutbuf: '0'
     minoutbuf: '0'
